@@ -6,6 +6,41 @@ soong_namespace {
 }
 
 android_app_import {
+	name: "AsusCamera",
+	owner: "asus",
+	apk: "proprietary/system/priv-app/AsusCamera/AsusCamera.apk",
+	overrides: ["Camera2"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "AsusGallery",
+	owner: "asus",
+	apk: "proprietary/system/priv-app/AsusGallery/AsusGallery.apk",
+	overrides: ["Gallery2"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "AsusGalleryBurst",
+	owner: "asus",
+	apk: "proprietary/system/priv-app/AsusGalleryBurst/AsusGalleryBurst.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "DiracAudioControlService",
 	owner: "asus",
 	apk: "proprietary/system/priv-app/DiracAudioControlService/DiracAudioControlService.apk",
