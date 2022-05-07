@@ -1509,16 +1509,16 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     WfdCommon \
     com.android.hotwordenrollment.common.util \
-    com.qti.dpmframework \
     com.qti.location.sdk \
-    dpmapi \
     izat.xt.srv \
     qcrilhook \
+    com.qti.dpmframework \
+    dpmapi \
     vendor.qti.hardware.alarm-V1.0-java \
-    android.hardware.gnss@2.1-service-qti \
-    android.hardware.neuralnetworks@1.3-service-qti \
+    manifest_android.hardware.gnss@2.1-service-qti \
+    manifest_android.hardware.neuralnetworks@1.3-service-qti \
     c2_manifest_vendor \
     manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.qti.diag.hal.service \
-    vendor.qti.gnss@4.0-service \
-    vendor.qti.hardware.servicetracker@1.2-service
+    manifest_vendor.qti.diag.hal.service \
+    manifest_vendor.qti.gnss@4.0-service \
+    manifest_vendor.qti.hardware.servicetracker@1.2-service
