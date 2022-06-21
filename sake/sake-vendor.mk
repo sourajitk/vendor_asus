@@ -6,8 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/asus/sake
 
 PRODUCT_COPY_FILES += \
-    vendor/asus/sake/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/asus/sake/proprietary/product/etc/preferred-apps/asus.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps/asus.xml \
+    vendor/asus/sake/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/asus/sake/proprietary/system/etc/videoeditor/Charming.mfim:$(TARGET_COPY_OUT_SYSTEM)/etc/videoeditor/Charming.mfim \
     vendor/asus/sake/proprietary/system/etc/videoeditor/Dynamic.mfim:$(TARGET_COPY_OUT_SYSTEM)/etc/videoeditor/Dynamic.mfim \
     vendor/asus/sake/proprietary/system/etc/videoeditor/Energetic.mfim:$(TARGET_COPY_OUT_SYSTEM)/etc/videoeditor/Energetic.mfim \
@@ -1629,11 +1629,11 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     WfdCommon \
     com.android.hotwordenrollment.common.util \
+    com.qti.dpmframework \
     com.qti.location.sdk \
+    dpmapi \
     izat.xt.srv \
     qcrilhook \
-    com.qti.dpmframework \
-    dpmapi \
     vendor.qti.hardware.alarm-V1.0-java \
     manifest_android.hardware.gnss@2.1-service-qti \
     manifest_android.hardware.neuralnetworks@1.3-service-qti \
